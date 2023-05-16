@@ -33,7 +33,7 @@ for (let i=0; i < llaves.length; i++) {
 }
 
 pedro.saluda = function(){
-    alert("Hola me llamo "+ this.name);
+    console.log("Hola me llamo "+ this.name);
   }
   
   pedro.saluda();
